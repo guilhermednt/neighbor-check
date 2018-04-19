@@ -1,0 +1,29 @@
+{
+    "name": "guilhermednt/neighbor-monitor",
+    "description": "Lib to monitor neighbor servers. Once a server receives a health check it relays it to its neighbors.",
+    "type": "library",
+    "require": {
+        "php": "^7.0",
+        "ext-curl": "*",
+        "guzzlehttp/guzzle": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "PROCERGS\\Monitoring\\": "src/"
+        }
+    },
+    "autoload-dev" : {
+        "psr-4" : {
+            "PROCERGS\\Test\\Monitoring\\"  : "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Guilherme Donato",
+            "email": "guilhermednt@users.noreply.github.com"
+        }
+    ]
+}
